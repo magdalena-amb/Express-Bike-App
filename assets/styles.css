@@ -39,10 +39,15 @@ h1 {
     text-shadow: 0 0 5px rgb(0, 0, 0);
 }
 
+h3 {
+    font-weight: lighter;
+}
+
 .googleAuth {
+    margin-top: 50px;
     display: inline-block;
     background: #eee;
-    height: 50px;
+    height: 40px;
     width: 300px;
     text-decoration: none;
     border: none;
@@ -57,8 +62,8 @@ h1 {
 
 span {
     display: inline-block;
-    height: 50px;
-    line-height: 50px;
+    height: 40px;
+    line-height: 40px;
     text-align: center;
     padding: 5px;
     position: absolute;
@@ -85,10 +90,10 @@ input {
 
 button {
     margin-top: 50px;
-    height: 50px;
+    height: 40px;
     width: 140px;
     padding: 0 15px;
-    line-height: 50px;
+    line-height: 40px;
     text-align: center;
     border: none;
     border-radius: 4px;

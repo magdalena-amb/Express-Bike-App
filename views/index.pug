@@ -1,0 +1,16 @@
+doctype html
+html
+    head
+        title="login"
+        link(href='/styles.css', rel='stylesheet')
+    body
+        div.container
+            div.overlay
+                h1 Welcome to Citibike tours! 
+                h3 We're a growing community of bike lovers/tour guides who take your sightseeing experience to the next level. 
+                a.googleAuth(href="/auth/google",target="_blank")
+                    img(src='/googleG.png', height='40', width='40') 
+                    span Sign in with Google
+                div.signin
+                    button Sign In
+                    button Sign Up 
