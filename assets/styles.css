@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: #0b2757 url(/citibike.jpg) 0/cover;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, .4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 50px;
+    letter-spacing: 2px;
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+}
+
+.googleAuth {
+    display: inline-block;
+    background: #eee;
+    height: 50px;
+    width: 300px;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    position: relative;
+    padding: 5px;
+}
+
+.googleAuth:hover {
+    box-shadow: 0 0 5px rgba(255, 255, 255, .7);
+}
+
+span {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    left: 90px;
+    color: #2c2c2c;
+}
+
+input {
+    text-align: center;
+    height: 50px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    padding: 0;
+    margin-right: 20px;
+}
+
+.signin {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    margin-top: 50px;
+    height: 50px;
+    width: 140px;
+    padding: 0 15px;
+    line-height: 50px;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    background: #234888;
+    box-shadow: 0 0 20px rgba(0, 0, 0 , .3);
+    color: #fff;
+}
+.inline {
+    display: inline-block;
+    width: 50px;
+}
+
+button:hover {
+    cursor: pointer;
+    background:#0f589c;
+    
+}
